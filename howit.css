@@ -1,0 +1,48 @@
+.container_3{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.cont3_first{
+    
+    width: 180px;
+}
+.farmer_logo{
+    border: 1px solid;
+    border-color: #2e7d32;
+    width: 60px;
+    border-radius: 35px;
+    padding: 5px;
+}
+   
+.harvest1{
+     font-family: 'Poppins' , sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #4e5d32;
+    padding: 0;
+    margin: 0;
+    padding-left: 15px;
+}
+.local1{
+    
+    font-family: 'Poppins' , sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    padding-left: 20px;
+}
+
+.cont3_second{
+   
+    width: 180px;
+}
+.cont3_third{
+    
+    width: 180px;
+}

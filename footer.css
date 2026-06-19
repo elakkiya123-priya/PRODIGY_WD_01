@@ -1,0 +1,103 @@
+.final_cont{
+    display: flex;
+    gap: 30px;
+    background-color: green;
+     justify-content: space-between;
+}
+.logo_name{
+    display: flex;
+    
+}
+.c1{
+margin-left: 200px;
+}
+.c3{
+    margin-right: 200px;
+}
+
+.ag{
+    width: 40px;
+    
+}
+.farm_green{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size:  18px;
+    font-weight: 600;
+    margin: 0;
+
+}
+.fresh_yellow{
+    color: yellow;
+}
+.cont2{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size:  10px;
+    font-weight: 300;
+    margin: 0;
+}
+.boot{
+    
+    width: 169px;
+    
+}
+.boot1{
+    color: white;
+     margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size:  10px;
+    font-weight: 300;
+    margin-left: 12px;
+}
+
+.fa-facebook{
+    color:#1877f2;
+    font-size: 20px;
+}
+.fa-linkedin{
+    color:#0a66c2;
+    font-size: 20px;
+}
+.fa-instagram{
+    color:#e4405f;
+    font-size: 20px; 
+
+}
+.fa-twitter{
+    color:#000;
+    font-size: 20px;
+}
+.icons{
+    
+    gap: 10px;
+    display: flex;
+    padding-left: 10px;
+    background-color: green;
+}
+h3{
+    
+    margin-top: 0;
+    color: white;
+     font-family: 'Poppins', sans-serif;
+    font-size:  20px;
+    font-weight: 200;
+}
+.lin,.lin1{
+    color: white;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+}
+.lin:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.final{
+    padding-left: 40%;
+}
+.love{
+    font-family: 'Poppins', sans-serif;
+    font-size:  20px;
+    font-weight: 600;
+}

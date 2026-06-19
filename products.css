@@ -1,0 +1,85 @@
+.container_4{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box1,.box2,.box3
+{
+    border: 1px solid;
+    width: 240px;
+    height: 320px;
+    border-radius: 16px;
+    box-shadow: 5px 5px 10px gray;
+    box-shadow: -5px -5px 10px gray;
+
+
+}
+.tomato{
+    
+   padding-top: 10px;
+    width: 240px;
+    height: 180px;
+     border-radius: 12px;
+    
+}
+.tomato_cart
+{
+    width: 20px;
+    margin-left: -35px;
+}
+.box1_sub1{
+   
+    padding-left: 60px;
+}
+.fresh{
+    font-family: 'Poppins', sans-serif;
+    font-size:  22px;
+    font-weight: 600;
+    color: #1b5e20;
+    margin-top: 0;
+    margin-bottom: 0;
+   
+}
+.price{
+    font-family: 'Poppins', sans-serif;
+    font-size:  18px;
+    font-weight: 600;
+     margin-top: 0;
+     padding-left: 20px;
+}
+.value{
+    color: green;
+}
+.tomato_but{
+    background-color: rgb(57, 206, 27);
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    padding-right: 40px;
+    padding-left: 5px;
+    cursor: pointer;
+    box-shadow: 4px 4px 10px rgb(19, 218, 19);
+  
+}
+.tomato_shop{
+    display: flex;
+    
+}
+.carrot{
+    width: 240px;
+     border-radius: 12px;
+     
+}
+.mango{
+    width: 240px;
+    height: 180px;
+     border-radius: 12px;
+}
+.onion{
+    margin-top: 10px;
+    width: 240px;
+    height: 180px;
+     border-radius: 12px;
+}

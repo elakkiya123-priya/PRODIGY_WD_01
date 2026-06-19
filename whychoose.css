@@ -1,0 +1,73 @@
+body{
+    
+      background-color: #f0fdf4;
+}
+.container_5{
+    display: flex;
+    justify-content: center;
+    align-items: space between;
+     gap: 5px;
+}
+
+.leaf,.rupee
+{
+    
+    width: 191px;
+    background-color: #f0fdf4;
+    border: 0.2px solid;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px ;
+}
+.leaf_logo{
+    color:#22c55e;
+    font-size: 50px;
+    
+    display: flex;
+    justify-content: center;
+}
+.freshpro{
+     font-family: 'Poppins' , sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 20px;
+    color: #222;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.middlecont{
+    font-size: 14px;
+    color: #666;
+    margin-top: 0;
+    padding-left: 15px;
+}
+.container_6{
+    margin-top: 15px;
+    
+    background-color: #2e7d32;
+    display: flex;
+    justify-content: center;
+   
+    gap: 35px;
+    
+}
+.cus{
+    
+}
+.customer1{
+    color: white;
+    font-size: 40px;
+    display: flex;
+     justify-content: center;
+     padding-top: 5px;
+}
+.num{
+    color: white;
+    font-size: 36px;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.num2{
+    font-size: 20px;
+     color: white;
+     margin-top: 0;
+}

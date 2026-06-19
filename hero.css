@@ -1,0 +1,104 @@
+.main_container
+{
+    background: linear-gradient(to right,#E8F5E9, #C8E6C9);
+    display: flex;
+    justify-content: center;
+    height: 300px;
+}   
+.first
+{
+    width: 514px;
+} 
+.para1{
+    font-family: 'Poppins' , sans-serif;
+    font-size: 52px;
+    font-weight: 700;
+    color: #1B5E20;
+    padding: 0;
+     margin-bottom: 2px;
+}
+.greenpara{
+    color:rgb(15, 241, 15);
+}
+.second{
+    width: 472px;
+}
+.para2{
+    font-family: 'Poppins' , sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #4e5d52;
+}
+.third{
+    display: flex;
+    align-items: centre;
+    width: 514px;
+    justify-content: center;
+    gap: 40px;
+    
+}
+.shop_but{
+    font-family: 'Poppins' , sans-serif;
+     font-size: 16px;
+     font-weight: 600;
+     border-radius: 8px;
+     border: 2px solid #2e7d32;
+     color: #2e7d32;
+     background-color: white;
+     padding: 14px 32px;
+     cursor: pointer;
+     transition: background-color,1s;
+    
+}
+.partner{
+     font-family: 'Poppins' , sans-serif;
+     font-size: 16px;
+     font-weight: 600;
+     border-radius: 8px;
+     border: 2px solid #2e7d32;
+     color: #2e7d32;
+     background-color: white;
+     padding: 14px 32px;
+     cursor: pointer;
+     transition: background-color,1s;
+}
+.shop_but:hover,.partner:hover{
+    background-color: #1B5E20;
+    color: white;
+}
+.cart_logo1{
+    width: 20px;
+    height: 20px;
+    margin-left: -30px;
+}
+.but1{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.main2{
+   
+    flex: 1;
+}
+.farmer{
+    padding-left: 250px;
+    width: 70%;
+    height: 100%;
+   
+}
+.third_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-top: 5px;
+   
+}
+.how{
+    font-size: 22px;
+    font-weight: 700;
+}

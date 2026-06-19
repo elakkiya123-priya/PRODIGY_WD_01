@@ -1,0 +1,86 @@
+.header{
+    background-color: rgb(6, 232, 6);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+   transition: background-color,1s;
+
+}
+.header:hover{
+    background-color: rgb(8, 94, 8);
+    
+}
+
+.agri_logo
+{
+    width: 30px;
+}
+.left
+{
+    display: flex;
+    align-items: center;
+    gap: 5 px;
+    margin-right: 40px;
+}
+
+
+.centre
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+   
+}
+.firstline p{
+      padding: 0;
+      margin: 0;
+     color: white;
+     font-family: 'Poppins', sans-serif;
+     font-size: 28px; 
+    line-height: 0.8;
+}
+.secondline p{
+    margin:0;
+    padding: 0;
+    font-size: small;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    line-height: 0.8;
+}
+
+
+.right
+{
+   display: flex;
+   align-items: center;
+   
+   margin-left: 40px;
+}
+.right1{
+    
+    margin-right: 5px;
+    
+}
+.cart_logo{
+    width: 30px;
+}
+.shop{
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    background-color: rgb(36, 110, 16);
+    color: white;
+}
+.content{
+    color: white;
+     font-family: 'Poppins', sans-serif;
+     transition: color,1s;
+
+}
+.content:hover{
+    text-decoration: underline;
+    color: yellow;
+     
+}

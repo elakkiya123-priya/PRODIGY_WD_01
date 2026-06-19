@@ -1,0 +1,89 @@
+.slider{
+    width: 300px;
+    height: 400px;
+    margin-left: 40%;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid;
+    border-radius: 30px;
+    background-color: #f0fdf4;
+    box-shadow: 5px 5px 10px gray;
+}
+.slides{
+    display: flex;
+   
+    min-width: 300px;
+    height: 400px;
+    transition:0.5s ease;
+}
+.slide1{
+    width: 300px;
+    height: 300px;
+    object-fit: contain;
+    
+}
+.ram{
+    margin: 0;
+    margin-left: 100px;
+    color: green;
+    font-family: 'Poppins' , sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.ic{
+    margin: 0;
+    color: white;
+    margin-left: 100px;
+    display: inline;
+    font-size: 25px;
+}
+.loc{
+     display: inline;
+     font-family: 'Poppins' , sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.next, .prev{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    padding:5px 10px;
+    cursor:pointer;
+    background:white;
+   
+}
+
+.next
+{
+          right:10px;
+          }
+.prev
+{ 
+    left:10px; 
+}
+
+/* Dots */
+.dots{
+    position:absolute;
+    bottom:10px;
+    width: 300px;
+    text-align:center;
+    
+}
+
+.dot{
+    height:10px;
+    width:10px;
+    margin:0 5px;
+    display:inline-block;
+    background:#bbb;
+    border-radius:50%;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.dot.active{
+    background:black;
+    transform:scale(1.2);
+}
